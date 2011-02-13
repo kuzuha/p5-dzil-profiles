@@ -1,0 +1,26 @@
+=pod
+=head1 How to setup Dist::Zilla
+
+=head2 Install
+cpanm Dist::Zilla
+
+=head2 Set up global config
+dzil setup
+//Answer some questions.
+
+=head2 Checkout dzil profiles
+mkdir ~/.dzil/profiles
+cd ~/.dzil/profiles
+git clone git@github.com:kuzuha/p5-dzil-profiles.git
+
+=head2 Create a first module
+//in your workspace
+dzil new Example::ModuleName
+
+//only need first time
+cd Example-ModuleName
+dzil authordeps | cpanm
+
+=head2 Those are all
+okay, all steps were done ;)
+=cut
