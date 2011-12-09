@@ -1,4 +1,4 @@
 use strict;
-use Test::UseAllModules;
+use Test::Requires 'Test::UseAllModules';
 
 BEGIN { all_uses_ok(); }
