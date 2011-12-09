@@ -14,7 +14,7 @@
 =head2 Checkout dzil profiles
 
   cd ~/.dzil
-  git clone git@github.com:kuzuha/p5-dzil-profiles.git profiles
+  git clone git://github.com/kuzuha/p5-dzil-profiles.git profiles
 
 =head2 Create a module
 
